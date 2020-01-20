@@ -1,7 +1,7 @@
 function onload() {
     var xhr = new XMLHttpRequest();
     xhr.open("GET", ".//testBLOB/videoa.mp4");
-    xhr.responseType = "arraybuffer";
+    xhr.responseType = "blob";
  
     xhr.onload = function(error) {
         var blob = new Blob([xhr.response]);
