@@ -1,6 +1,6 @@
 function onload() {
     var xhr = new XMLHttpRequest();
-    xhr.open("GET", "./robloxapp-20191027-0901570.wmv");
+    xhr.open("GET", ".//testBLOB/videoa.mp4");
     xhr.responseType = "arraybuffer";
  
     xhr.onload = function(error) {
